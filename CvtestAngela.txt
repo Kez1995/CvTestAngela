@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTLM Codepen</title>
+ </head>
+
+  <body>
+    <h1>Kieran Roberts</h1>
+    <hr size = "3", noshade = $0>
+    
+  <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="User picture">
+    <div>
+        <h2>Profile</h2>
+        <p>Currently working at <b><i>HS Pensions Ltd</i></b> in the pension accouts team, studying towards <b><i>ACCA</i></b> qualifications and learning to code on <b><i>Udemy</i></b>.</p>
+    </div>
+    <div>
+      <hr size = "3", noshade = $0>
+      <h3>Family</h3>
+      <ul>
+        <li>Niamh</li>
+        <li>Clare</li>
+        <li>Richard</li>
+      </ui>
+      </div>
+      <div>
+         <h3>Hobbies</h3>   
+      <ol>
+        <li>Rock Climbing</li>
+        <li>Gym</li>
+        <li>Walking</li>
+      </ol>
+     </div>
+    
+<hr size = "3", noshade = $0>
+    <h2>Contact Information</h2>
+    <address>
+      Email:<a href="mailto:kieranroberts.95@hotmail.com">kieranroberts.95@hotmail.com</a>
+      <p></p>
+      Telephone:<a href="tel:+07756988547">(44) 07756988547</a>
+    </address>
+
+<hr size = "3", noshade = $0>
+ <form action="mailto:kieranroberts.95@hotmail.com" method="post" enctype="text/plain">
+    <table>
+    <thead>
+    <h2>Or contact me using the form below:</h2>         
+    </thead>
+    <tbody>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" for="name" name="name" placeholder="Forename and Surname" required></input></td>
+      </tr>
+      <tr>
+        <td><label for="date">Date of Birth:</label></td>
+        <td><input type="date" name="date" for="DoB" value="" required></input></td>
+      </tr>  
+      <tr>
+        <td><label for="telephone">Telephone No:</label></td>
+        <td><input type="tel" name="telephone" for="telephone" placeholder="Mobile No" value=""></input></td>
+      </tr>  
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" name="email" for="email" value=""></input></td>
+      </tr>  
+      <tr>
+        <td><label for="Comment">Comment:</label></td>
+        <td><textarea name="Comment" rows="5" cols="30" placeholder="Please provide more information if required:" value=""></textarea></td>
+      </tr>  
+    </tbody>
+    <tfoot>
+      <tr>
+      </tr>
+    </tfoot>
+</table>
+        <input type="submit"></input>
+        <input type="reset"></input>
+    </form>
+
+</body>
+</html>
